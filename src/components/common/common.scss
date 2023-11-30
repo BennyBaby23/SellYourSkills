@@ -1,0 +1,16 @@
+.loader{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+    left: 935px;
+    p{
+        font-family: system-ui;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+}
