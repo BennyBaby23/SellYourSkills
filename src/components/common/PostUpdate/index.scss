@@ -1,0 +1,40 @@
+.post-status-main{
+    display: flex;
+    
+    
+
+
+    .post-status{
+        position: absolute;
+        width: 60%;
+        height: 100px;
+        background-color: rgb(183, 135, 135);
+        justify-content: center;
+        margin-left: 270px;
+        border: 1px solid #c2c0c0;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .open-post-modal{
+        width: 70%;
+        height: 50px;
+        text-align: left;
+        border-radius: 10px;
+        border: 1px solid #c2c0c0;
+        cursor: pointer;
+        padding: 10px;
+        font-family: system-ui;
+        font-weight: 600;
+        font-size: 14px;
+        background-color: whitesmoke;
+
+    }
+
+    .open-post-modal:hover{
+        background-color: #dcdbdb;
+
+    }
+}

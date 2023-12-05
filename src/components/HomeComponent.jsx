@@ -1,6 +1,10 @@
 import React from "react";
-import "../Sass/HomeComponent.scss"
+import "../Sass/HomeComponent.scss";
+import PostStatus from "./common/PostUpdate";
 
+// home component
 export default function HomeComponent(){
-    return <div><h1>Home</h1></div>;
+    return <div className="home-component">
+        <PostStatus />
+    </div>;
 }
