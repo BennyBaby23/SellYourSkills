@@ -3,6 +3,7 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import HomeLayout from "../layouts/HomeLayout";
 
+// routes for each pages
 export const router = createBrowserRouter([
     {
       path: "/",

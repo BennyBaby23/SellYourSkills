@@ -10,7 +10,7 @@ export default function Login(){
     let navigate = useNavigate();
     useEffect(() => {
         onAuthStateChanged(auth, (res) => {
-            if(res?.accessToken){
+            if(res.accessToken){
                 navigate("/home");
 
             }else{
@@ -21,5 +21,6 @@ export default function Login(){
         });
 
     }, []);
-    return loading ? <Loader /> : <LoginComponent />;
+    return <LoginComponent />;
+    // return loading ? <Loader /> : <LoginComponent />;
 }

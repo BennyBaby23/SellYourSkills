@@ -1,0 +1,11 @@
+.home-layout{
+    background-image: url("../assets/herobg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 120em;
+    height: 100em;
+    
+}
+.home-layout.cover{
+    background-size: cover;
+}
