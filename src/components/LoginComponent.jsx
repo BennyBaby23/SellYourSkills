@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LoginAPI, GoogleSignInAPI } from "../api/AuthAPI"; 
-import sellyourskillslogo from "../assets/sellyourskillslogo1.png";
+import sysLogo from "../assets/SYS3.png";
 import "../Sass/LoginComponent.scss";
 import GoogleButton from 'react-google-button';
 import { toast } from "react-toastify";
@@ -40,7 +40,7 @@ export default function LoginComponent(){
         <div className= "login-wrapper">
             
             {/* logo */}
-            <img src={sellyourskillslogo} className="sellyourskillslogo"/>
+            <img src={sysLogo} className="sysLogo"/>
             {/* heading */}
             <div className="login-inner">
             <h1 className="heading">Sign In</h1>
